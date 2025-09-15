@@ -1,0 +1,40 @@
+# Dependencies
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build artifacts
+/dist
+/build
+/out
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+/coverage
+
+# npm package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Compiled files
+*.js.map
+*.d.ts
